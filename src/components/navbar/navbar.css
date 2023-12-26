@@ -1,0 +1,108 @@
+.gpt3__navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+}
+.gpt3__navbar-links{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    align-items: center;
+}
+
+.gpt3__navbar-links-logo{
+    margin-right: 2rem;
+}
+.gpt3__navbar-links-logo img{
+   width: 62.557px;
+height: 16.016px;
+margin-top: 4px;
+}
+
+.gpt3__navbar-links_container{
+display: flex;
+gap:35px
+}
+.gpt3__navbar-links_container a,.gpt3__sigin_signup a{
+
+text-decoration: none;
+color: #FFF;
+font-family: Manrope;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.gpt3__sigin_signup{
+    display: flex;
+    justify-content: flex-end;
+    gap:20px;
+    align-items: center;
+}
+
+
+.navbar-left-items{
+    display: flex;
+}
+
+button{
+width: 152px;
+height: 58px;
+color: #FFF;
+font-family: Manrope;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+border-radius: 5px;
+cursor: pointer;
+
+background-color:  #FF4820;;
+}
+
+.sidebar Links{
+   display: flex;
+ 
+}
+.sidebar-container a{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+.sidebar-container{
+    position: absolute;
+    background-color:rgba(0, 42, 83, 1);
+     width: 200px;
+     height: 250px;
+     top: 120px;
+     right: 0;
+     display: flex;
+       flex-direction: column;
+       align-items: center;
+       gap: 20px;
+     
+}
+@media screen and (max-width:1050px){
+    .gpt3__navbar-links_container,.gpt3__sigin_signup{display: none;}
+}
+
+@media screen and (min-width:1050px) {
+    .menu{
+        display: none;
+    }
+}
+
+@media screen and (max-width:700px){}
+
+@media screen and (max-width:550px){
+    
+
+.gpt3__navbar{
+    padding: 2rem 2rem;
+} 
+}
