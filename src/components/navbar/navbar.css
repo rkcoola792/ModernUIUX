@@ -89,6 +89,9 @@ background-color:  #FF4820;;
 }
 @media screen and (max-width:1050px){
     .gpt3__navbar-links_container,.gpt3__sigin_signup{display: none;}
+    .gpt3__navbar{
+    padding: 2rem 4rem;
+}
 }
 
 @media screen and (min-width:1050px) {
@@ -97,12 +100,18 @@ background-color:  #FF4820;;
     }
 }
 
-@media screen and (max-width:700px){}
+@media screen and (max-width:700px){.gpt3__navbar{
+    padding: 2rem 2rem;
+} }
 
 @media screen and (max-width:550px){
     
-
 .gpt3__navbar{
     padding: 2rem 2rem;
-} 
+}
+
+.gpt3__header-content__people{
+    flex-direction: column;
+}
+
 }

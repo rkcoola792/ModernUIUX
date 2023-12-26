@@ -11,7 +11,7 @@ body {
 
 .gradient__bg {
   background: radial-gradient(
-    circle at 5% 25%,
+    circle at 3% 10%,
     rgba(0, 42, 83, 1) 0%,
     rgba(4, 12, 24, 1) 100%
   );
